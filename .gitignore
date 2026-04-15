@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# test files
+large_input_v1.txt
+small_input_v1.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
