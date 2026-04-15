@@ -1,0 +1,7 @@
+Two-pass stream: hash-partition by (claim_id,status_code) into temp buckets to bound memory.
+Buckets (64) are configurable and opened lazily to avoid descriptor limits.
+Process each bucket, build graphs per group, and use DFS to find the longest simple cycle.
+Track the global max.
+Future: add SCC pruning and parallel bucket processing.
+
+- Jeff Lee
